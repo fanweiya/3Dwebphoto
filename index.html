@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link rel="shortcut icon" href="favicon.ico" />
-		<title>Mei Dan is so cute :) </title>
+		<title>fan wei ya:) </title>
 		<style>
 			html, body {
 				height: 100%;
@@ -82,13 +82,12 @@
 
 		<div id="container"></div>
 		<div id="menu">
-			<button id="table">Meidan</button>
-			<button id="sphere">is</button>
-			<button id="helix">so</button>
-			<button id="grid">cute!</button>
-
+			<button id="table">fan</button>
+			<button id="sphere">wei</button>
+			<button id="helix">ya</button>
+			<button id="grid">is me!</button>
 		<script>
-			num = 152;
+			num = 78;//photo num
 			var camera, scene, renderer;
 			var controls;
 
@@ -113,7 +112,7 @@
 
 					var image = document.createElement( 'img' );
 					image.className = 'image';
-					image.src = 'image/dan/' + (i + 1) + '.jpg';
+					image.src = 'image/' + (i + 1) + '.jpg';
 					element.appendChild( image );
 
 					var object = new THREE.CSS3DObject( element );
@@ -299,35 +298,6 @@
 				renderer.render( scene, camera );
 
 			}
-
-		</script>
-
-		<!-- AddThis Button BEGIN -->
-		<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:50px;top:50px;">
-		<a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
-		<a class="addthis_button_tweet" tw:count="vertical"></a>
-		<a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
-		<a class="addthis_counter"></a>
-		</div>
-		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5196123542cfef71"></script>
-		<!-- AddThis Button END -->
-
-		<!-- JiaThis Button BEGIN -->
-		<script type="text/javascript">
-		var jiathis_config = {data_track_clickback:'true'};
-		</script>
-		<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;uid=1352610112813203" charset="utf-8"></script>
-		<!-- JiaThis Button END -->
-
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-27636109-4', 'herokuapp.com');
-		  ga('send', 'pageview');
 
 		</script>
 	</body>
